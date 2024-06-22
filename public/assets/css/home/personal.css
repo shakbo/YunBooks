@@ -1,0 +1,26 @@
+.content {
+    width: 100%;
+    height: 100%;
+}
+
+main {
+    flex-direction: column;
+}
+
+#typewriter-container {
+    flex-grow: 1;
+}
+
+.fixed-bottom-right-div {
+    margin: 0px 40px 20px 0px;
+}
+
+.infoupdate {
+    scale: 1;
+    transition: all 0.3s ease;
+}
+
+.infoupdate:hover {
+    scale: 1.2;
+    transition: all 0.3s ease;
+}

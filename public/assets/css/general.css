@@ -1,0 +1,56 @@
+body {
+    width: 100%;
+    display: flex;
+    min-height: calc(100vh + 56px);
+    flex-direction: column;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 72px - 30px);
+    background-color: #8b5a3c; /* Darkened base color */
+    opacity: 0.8;
+    background: repeating-linear-gradient(
+    30deg,
+    #6e3622, /* Darkened stripe color */
+    #6e3622 4.5px,
+    #8b5a3c 4.5px, /* Darkened stripe color */
+    #8b5a3c 22.5px
+    );
+    background-blend-mode: darken;
+    margin-top: 72px;
+    flex-grow: 1;
+}
+
+@media only screen and (min-width: 992px) {
+    header ul li {
+        scale: 1;
+        transition: all 0.3s ease;
+    }
+    
+    header ul li:hover {
+        scale: 1.2;
+        transition: all 0.3s ease;
+    }
+}
+
+::-webkit-scrollbar {
+    width: 3px;
+}
+
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px #8b5a3c;
+    border-radius: 10px;
+}
+  
+::-webkit-scrollbar-thumb {
+    background: #6e3622;
+    border-radius: 10px;
+}

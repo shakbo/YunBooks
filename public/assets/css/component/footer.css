@@ -1,0 +1,11 @@
+@media only screen and (min-width: 992px) {
+    footer ul li {
+        scale: 1;
+        transition: all 0.3s ease;
+    }
+    
+    footer ul li:hover {
+        scale: 1.2;
+        transition: all 0.3s ease;
+    }
+}

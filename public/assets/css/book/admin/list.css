@@ -1,0 +1,25 @@
+main {
+    width: 100%;
+    height: 100%;
+    flex-grow: 1;
+    flex-direction: column;
+}
+
+.book-image {
+    height: 175px;
+}
+
+.card-background {
+    background: rgb(255,255,255);
+    background: radial-gradient(circle, rgba(255,255,255,0.0984768907563025) 70%, rgba(255,155,40,1) 75%, rgba(219,219,219,1) 100%);
+}
+
+.card , .newbook{
+    scale: 1;
+    transition: all 0.3s ease;
+}
+
+.card:hover, .newbook:hover {
+    scale: 1.05;
+    transition: all 0.3s ease;
+}
